@@ -104,7 +104,6 @@ while play:
     #
 
     for rock in rocks:
-        # pg.draw.rect(window, pg.Color('white'), rock)
         if rock.y == 0:
             rect = img_botrock.get_rect(bottomleft=rock.bottomleft)
             window.blit(img_botrock, rect)
@@ -112,7 +111,6 @@ while play:
             rect = img_botrock.get_rect(topleft=rock.topleft)
             window.blit(img_toprock, rect)
 
-    # pg.draw.rect(window, pg.Color('white'), player)
     image = img_crow.subsurface(60 * int(frame), 0, 37, 40)
     # задирать нос
     image = pg.transform.rotate(image, -sy * 2)
