@@ -8,6 +8,8 @@ Control mouse1 and space.
 pip install -r requirements.txt
 Run main.py
 
-![SCREEN1!](image/screen/Screen1.png)
-![SCREEN2!](image/screen/Screen2.png)
-![SCREEN3!](image/screen/Screen3.png)
+![SCREEN1!](image/screen/Screens1.png)
+
+![SCREEN2!](image/screen/Screens2.png)
+
+![SCREEN3!](image/screen/Screens3.png)
